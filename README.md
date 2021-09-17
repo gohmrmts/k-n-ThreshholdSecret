@@ -1,4 +1,4 @@
-# k-n-ThreshholdSecret
+# ThreshholdSecretKN.cpp
 (k,n)閾値秘密分散法とそれを使ったマルチパーティ計算のコード．
 ラグランジュ補間を使っている．
 
