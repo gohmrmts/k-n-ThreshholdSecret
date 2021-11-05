@@ -75,7 +75,7 @@ class Person :public Galois{
       for(int i = 1; i <= n; i++) {
         share[i] = S;
         for (int j = 1; j < k; j++) {
-          share[i] = add(share[i], mul(a[j], i));
+          share[i] = add(share[i], mul(a[j], pow(i, j)));
         }
         table_share[i] = share[i];
       }
